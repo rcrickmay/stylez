@@ -1,0 +1,35 @@
+/* CSS Document */
+/* MEDIA Queries */
+
+
+
+/* GOOGLE SEARCH BAR - FIXING MOBILE REACTIVITY */
+/* ALL ID'S AND CLASSES MUST BE PINNED ON LOAD */
+/* !IMPORTANT ONLY USED FOR TESTING */
+/* NOT TO BE COMMITTED ON FINAL */
+
+@media screen and (max-width: 650px) {
+  
+  .showMe_over650 * {display: none !important;}
+  
+  .showMe_under650 {display: inline-block !important;}
+    #googleCS_L650 {
+    z-index: 9999;
+    max-width: 100% !important;
+    max-height: 60px !important;
+    width: 100% !important;
+    height: 60px !important;
+    margin-bottom: 15px !important;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+  }
+  
+}
+
+/* TEMPORARY FIX */
+/* Social Media buttons are overlapping desired content on mobile */
+
+@media screen and (max-width: 650px) {
+    .top_social-media { display: none !important;}
+}
