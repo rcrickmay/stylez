@@ -1,0 +1,14 @@
+/* CSS Document */
+
+.showMe_over650 {display: block !important;}
+#googleCS .showMe_under650 {
+    z-index: 9999;
+    left: 0;
+    top: 15px;
+    max-width: 100%;
+    max-height: 65px;
+    width: 100%;
+    height: 65px;
+  }
+  
+.showMe_under650 {display: none !important;}
